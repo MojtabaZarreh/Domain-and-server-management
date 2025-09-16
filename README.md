@@ -66,4 +66,5 @@ Build and start the application:
 docker compose up
 ```
 Username : admin
+
 Password : admin1234
