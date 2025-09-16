@@ -58,7 +58,7 @@ The goal of this project is to centralize the monitoring of all purchased domain
 ### Installation  
 Clone the repository:  
 ```bash
-git clone git clone https://github.com/your-username/your-repo.git](https://github.com/MojtabaZarreh/Domain-and-server-management
+git clone https://github.com/MojtabaZarreh/Domain-and-server-management
 cd Domain-and-server-management
 ```
 Build and start the application:
