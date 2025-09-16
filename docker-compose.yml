@@ -2,7 +2,7 @@ version: "3.9"
 services:
   web:
     build: .
-    container_name: leca_api
+    container_name: domain_api
     ports:
       - "8000:8000"
     volumes:
@@ -10,7 +10,7 @@ services:
 
   nginx:
     image: nginx:alpine
-    container_name: leca_nginx
+    container_name: domain_nginx
     ports:
       - "80:80"
     volumes:

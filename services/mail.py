@@ -5,7 +5,7 @@ from services.setting import settings
     
 def send_email(body: str, subject="notification", recipients=None) -> None:
     if recipients is None:
-        recipients = ["m.zarreh@leca.ir"]
+        recipients = ["YOUR_EMAIL@example.com"]
 
     smtp_server = settings.SMTP_SERVER
     smtp_port = settings.SMTP_PORT

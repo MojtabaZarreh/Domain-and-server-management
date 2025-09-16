@@ -9,10 +9,10 @@ from services.setting import settings
 @contextmanager
 def db_connection():
     conn = pymssql.connect(
-        host=settings.LECA_DB_HOST,
-        user=settings.LECA_DB_USER,
-        password=settings.LECA_DB_PASSWORD,
-        database=settings.LECA_DB_NAME,
+        host=settings.SMS_DB_HOST,
+        user=settings.SMS_DB_USER,
+        password=settings.SMS_DB_PASSWORD,
+        database=settings.SMS_DB_NAME,
     )
     try:
         yield conn
@@ -29,7 +29,7 @@ def current_jalali_datetime():
 def send_sms_alert(message: str, record: int = 0):
     
     DEFAULT_MOBILE_NOS = ["*********", "*********"]
-    DEFAULT_TABLE_NAME = "ServerRoomTemp"
+    DEFAULT_TABLE_NAME = "TABLE_NAME"
     DEFAULT_SMS_TYPE = 13
     
     date_str, time_str, datetime_str = current_jalali_datetime()
