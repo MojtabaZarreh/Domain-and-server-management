@@ -4,7 +4,7 @@ A web application built with **Django Ninja** (backend) and **HTML, CSS, JavaScr
 
 The goal of this project is to centralize the monitoring of all purchased domains and servers in one place, ensuring that nothing expires unnoticed and uptime is continuously monitored.  
 
-![bandicam 2025-09-15 08-04-31-876](https://github.com/user-attachments/assets/384955b6-a7ed-47c6-b9a3-32aee48d7b82)
+![bandicam 2025-09-16 08-44-10-709](https://github.com/user-attachments/assets/69d895a5-9603-4eb3-8b38-a27c2d4580a2)
 
 ---
 
